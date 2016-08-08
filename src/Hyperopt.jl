@@ -20,10 +20,10 @@ end
 export valswithlosses;
 
 uniform = hp["uniform"]; export uniform;
-lognormal = hp["lognormal"]; export lognormal;
 choice = hp["choice"]; export choice;
 randint = hp["randint"]; export randint;
 quniform = hp["quniform"]; export quniform;
+loguniform = hp["loguniform"]; export loguniform;
 qloguniform = hp["qloguniform"]; export qloguniform;
 normal = hp["normal"]; export normal;
 qnormal = hp["qnormal"]; export qnormal;
