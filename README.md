@@ -1,3 +1,15 @@
 # Hyperopt
 
-[![Build Status](https://travis-ci.org/ozanarkancan/Hyperopt.jl.svg?branch=master)](https://travis-ci.org/ozanarkancan/Hyperopt.jl)
+###Installation
+
+First, install hyperopt:
+```
+pip install hyperopt
+```
+Then, in julia repl, 
+```julia
+Pkg.clone("https://github.com/ozanarkancan/Hyperopt.jl.git")
+```
+
+###Usage
+Look at the example folder and [the documentation of hyperopt](https://github.com/hyperopt/hyperopt/wiki/FMin)
