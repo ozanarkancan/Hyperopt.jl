@@ -12,4 +12,4 @@ Pkg.clone("https://github.com/ozanarkancan/Hyperopt.jl.git")
 ```
 
 ###Usage
-Look at the example folder and [the documentation of hyperopt](https://github.com/hyperopt/hyperopt/wiki/FMin)
+Look at the examples folder and [the documentation of hyperopt](https://github.com/hyperopt/hyperopt/wiki/FMin)
