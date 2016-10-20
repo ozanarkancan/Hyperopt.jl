@@ -90,7 +90,7 @@ function objective(args)
 	w = weights(hidden)
 	prms = Any[]
 	for i=1:length(w)
-		push!(prms, init_sgd(;lr=lr))
+		push!(prms, Sgd(;lr=lr))
 	end
 
 	global dtrn
