@@ -1,5 +1,9 @@
 module MNIST
 
+for p in ("Knet","GZip","Compat")
+	Pkg.installed(p) == nothing && Pkg.add(p)
+end
+
 using Knet, Compat, GZip, Hyperopt
 
 function predict(w,x)
